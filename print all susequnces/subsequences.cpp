@@ -21,7 +21,7 @@ void f(int i, vector<int>&ds, int arr[], int n){
         cout<<endl;
         return;
     }
-    // take or pick the the [articular indexinto the subsequence 
+    // take or pick the the particular index into the subsequence 
     ds.push_back(arr[i]);
     f(i+1,ds,arr,n);
     ds.pop_back();
